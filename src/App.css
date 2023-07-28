@@ -58,6 +58,7 @@ li{
 .bs{
     display: flex;
     align-items: center;
+    gap: 5px;
     background-color: white;
     padding: 5px;
     border-radius: 5px;
@@ -70,4 +71,51 @@ li{
 .bs svg{
     color: black;
     font-size: 20px;
+}
+.banner img{
+    height: 64.2vh;
+}
+.kk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 60px;
+}
+.kkk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+}
+.mid{
+    display: flex;
+    gap: 40px;
+}
+.mid img{
+    height: 25vh;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    text-align: center;
+}
+.pro img{
+    height: 20vh;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.top button{
+    padding: 5px 10px;
+    background-color: rgb(241, 191, 191);
+    color: rgb(241, 66, 66);
+    border: none;
 }

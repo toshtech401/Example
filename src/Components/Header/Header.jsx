@@ -4,6 +4,7 @@ import {MdOutlineCall} from 'react-icons/md'
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import {BsSearch} from 'react-icons/bs'
+import banner from "../Images/Banner.jpg"
 
 const Header = () => {
   return (
@@ -51,9 +52,12 @@ const Header = () => {
           </ul>
           <div className='bs'>
             <BsSearch />
-            <input type="text" />
+            <input type="text" placeholder='Search for products....'/>
           </div>
         </div>
+      </div>
+      <div className="banner">
+        <img src={banner} alt="" />
       </div>
     </div>
   )
