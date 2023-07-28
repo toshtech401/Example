@@ -1,98 +1,73 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-button{
-  padding: 10px ;
-  border-radius: 10px;
-
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav li {
-  margin-right: 1rem;
-  cursor: pointer;
-}
-
-main {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
-.img{
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-img{
-  height: 40vh;
-}
-.foot{
-  display: flex;
-  justify-content: space-around;
-}
-main{
-  margin-top: 50px;
-}
-footer{
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-footer li{
-  list-style: none;
-}
-.btt{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-input{
-  padding: 5px 0;
-}
-
-
-@media screen and (max-width:950px) {
-  .img{
+.head{
+    display: flex;
     flex-direction: column;
-  }
-  img{
-    height: 20vh;
-  }
-  main{
-    margin-top: 30px;
-  }
-  .foot{
-    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 28, 28);
+    color: white;
+    width: 100%;
+    padding: 15px 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
     gap: 10px;
-  }
-
+}
+svg{
+    font-size: 30px;
+}
+.mar{
+    width: 60%;
+    margin-top: 20px;
+}
+marquee{
+    color: red;
+    font-size: 20px;
+}
+.down{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 10px 5px;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+.sea{
+    display: flex;
+    gap: 30px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.bs{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bs input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.bs svg{
+    color: black;
+    font-size: 20px;
 }
