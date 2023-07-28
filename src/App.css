@@ -35,6 +35,9 @@ nav li {
 
 main {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 footer {
