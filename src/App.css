@@ -23,7 +23,8 @@
     align-items: center;
     gap: 10px;
 }
-svg{
+.icon svg{
+    color: red;
     font-size: 30px;
 }
 .mar{
@@ -73,7 +74,7 @@ li{
     font-size: 20px;
 }
 .banner img{
-    height: 64.2vh;
+    height: 64.4vh;
 }
 .kk{
     display: flex;
@@ -87,7 +88,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     flex-direction: column;
     gap: 60px;
     width: 100%;
@@ -105,8 +106,18 @@ li{
     width: 85%;
     text-align: center;
 }
+.proo{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    text-align: center;
+}
 .pro img{
     height: 20vh;
+}
+.proo img{
+    height: 30vh;
+    border-radius: 10px;
 }
 .top{
     display: flex;
@@ -118,4 +129,123 @@ li{
     background-color: rgb(241, 191, 191);
     color: rgb(241, 66, 66);
     border: none;
+    border-radius: 5px;
+}
+.top button:hover {
+    animation: shake3856 0.3s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   }
+.sell{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    text-align: center;
+}
+.sell img{
+    height: 30vh;
+    border-radius: 20px;
+}
+span{
+    color: rgb(231, 22, 22);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.explore{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ol li:hover{
+    color: red;
+    cursor: pointer;
+    margin-left: 7px;
+    transition: ease-in-out 1s;
+}
+.feet{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: grey;
+    gap: 30px;
+    color: white;
+    padding: 20px 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+footer p{
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+.mar span{
+    color: black;
+    font-size: larger;
+    font-weight: 300;
+}
+.last{
+    display: flex;
+    width: 85%;
+    gap: 40px;
+    justify-content: space-between;
+}
+.last img{
+    height: 45vh;
+}
+.las{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.las button{
+    width: 40%;
+    padding: 7px 10px;
+    border: none;
+    background-color: rgb(187, 13, 13);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
 }

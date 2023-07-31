@@ -38,7 +38,7 @@ const Goods = () => {
                 </div>
                 <div>
                     <img src={coffee} alt="" />
-                    <p>Coffee Tea</p>
+                    <p>Coffee & Tea</p>
                 </div>
                 <div>
                     <img src={lipuor} alt="" />

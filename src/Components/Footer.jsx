@@ -4,22 +4,36 @@ const Footer = () => {
   return (
     <footer>
       <div className='foot'>
-        <div>
-          <h1>TechCorp</h1>
+        <div className='feet'>
+          <h3>QUICK LINKS</h3>
+          <ol>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Contact</li>
+          </ol>
         </div>
-        <div>
-          <ul>
-            <li>About Us</li>
-            <li>Privacy & Policy</li>
-          </ul>
+        <div className='feet'>
+          <h3>EXPLORE</h3>
+          <ol>
+            <li>Bakery & Deli</li>
+            <li>Baby</li>
+            <li>Recipes</li>
+            <li>Butchery</li>
+            <li>Liquor</li>
+          </ol>
         </div>
-        <div className='btt'>
-          <h2>Get In Touch</h2>
-           <input type="text" />
-           <button>Message Us</button>
+        <div className='feet'>
+          <h3>TREMS & CONDITIONS</h3>
+          <ol>
+            <li>Cookie Policy</li>
+            <li>Data Privacy Statement</li>
+            <li>Website Usage Policy</li>
+            <li></li>
+            <li></li>
+          </ol>
         </div>
       </div>
-      <p>&copy; {new Date().getFullYear()} TechCorp. All rights reserved.</p>
+      <p>&copy; Retail Supermarkets Nigeria Limited {new Date().getFullYear()} All Rights Reserved.</p>
     </footer>
   )
 }

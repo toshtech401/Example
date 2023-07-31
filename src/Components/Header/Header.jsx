@@ -23,7 +23,7 @@ const Header = () => {
         </div>
       </div>
       <div className='mar'>
-        <marquee behavior="" direction="">Welcome to my supermarket</marquee>
+        <marquee behavior="" direction="">Welcome to my supermarket.Any Concerns Please Contact : <span>mustaphas902@gmail.com</span> </marquee>
       </div>
       <div className='down'>
         <div>
