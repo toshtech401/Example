@@ -44,7 +44,7 @@ marquee{
     padding: 10px 5px;
     color: white;
 }
-ul{
+ol{
     display: flex;
     gap: 30px;
 }
@@ -190,7 +190,7 @@ span{
     justify-content: center;
 }
 ol li:hover{
-    color: red;
+    color: green;
     cursor: pointer;
     margin-left: 7px;
     transition: ease-in-out 1s;
@@ -248,4 +248,101 @@ footer p{
     color: white;
     font-size: 20px;
     border-radius: 10px;
+}
+.nav-mobile{
+    display: none;
+  }
+  .toggle{
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+
+
+@media screen and (max-width:950px) {
+    .pro{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mid{
+        flex-direction: column;
+    }
+    .mid img{
+        height: 20vh;
+    }
+    .sell{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .banner img{
+        height: 20vh;
+    }
+    .down{
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .proo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .sea{
+        flex-direction: column;
+    }
+    .up{
+        flex-direction: column;
+    }
+    
+    .foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    ul{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .toggle{
+        display: block;
+      }
+      .nav-mobile{
+        display: block;
+        background-color: white;
+        transition: .7s ease-in-out;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-mobile-sub{
+        height: 25vh;
+        padding: 10px 30px;
+      }
+      .nav-mobile li{
+        color: black;
+      }
+      .nav-mobile:hover{
+        cursor:pointer;
+      }
+      .bs{
+        display: none;
+      }
+      ol{
+        display: none;
+      }
+      .down{
+        display: flex;
+      }
+      .tog{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
 }

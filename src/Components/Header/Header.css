@@ -1,125 +1,41 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
 .navbar {
+  display: flex;
+  list-style-type: none;
   background-color: #333;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-container {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
-}
-
-.navbar-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.icon {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  position: relative;
-}
-
-.icon:before,
-.icon:after {
-  content: '';
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  position: absolute;
-}
-
-.icon:before {
-  top: -8px;
-}
-
-.icon:after {
-  bottom: -8px;
-}
-
-li {
-  list-style: none;
-  margin: 0;
   padding: 0;
-  display: flex;
 }
 
-.navbar-links.active {
-  display: block;
+.navbar li {
+  padding: 15px;
 }
 
-li {
-  padding: 0 15px;
-}
-
-li a {
-  color: #fff;
+.navbar li a {
+  color: white;
   text-decoration: none;
 }
 
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-.active{
+.dropdown {
+  display: block;
+  background-color: #444;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style-type: none;
+  padding: 0;
   display: none;
 }
-.navbar-toggle{
-  display: none;
-}
-.navbar-container{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+
+.dropdown li {
+  padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar-links {
-    display: none;
-  }
+.dropdown li a {
+  color: white;
+  text-decoration: none;
+}
 
-  ul{
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-  }
-
-  li {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .navbar-toggle{
-    display: block;
-    transition: ease-in-out 2s;
-  }
+.dropdown li a:hover {
+  background-color: #555;
 }

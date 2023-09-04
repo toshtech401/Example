@@ -28,8 +28,6 @@ const Footer = () => {
             <li>Cookie Policy</li>
             <li>Data Privacy Statement</li>
             <li>Website Usage Policy</li>
-            <li></li>
-            <li></li>
           </ol>
         </div>
       </div>

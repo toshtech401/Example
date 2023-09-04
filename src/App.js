@@ -1,21 +1,16 @@
 import './App.css';
-import Explore from './Components/Explore/Explore';
-import Features from './Components/Features/Features';
-import Footer from './Components/Footer';
-import Goods from './Components/Goods/Goods';
-import Header from './Components/Header/Header';
-import Top from './Components/Top/Top';
+import Hero from './Components/Hero';
+import Contact from './Components/Contact/Contact'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Goods />
-      <Top />
-      <Features />
-      <Explore />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Hero />}/>
+        <Route path='/contact' element={<Contact />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
