@@ -189,8 +189,8 @@ span{
     align-items: center;
     justify-content: center;
 }
-ol li:hover{
-    color: green;
+.feet ol li:hover{
+    color: red;
     cursor: pointer;
     margin-left: 7px;
     transition: ease-in-out 1s;
@@ -199,6 +199,10 @@ ol li:hover{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+.feet ol{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
@@ -301,6 +305,10 @@ footer p{
     .foot{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 10px 20px;
+    }
+    .feet ol{
+        flex-direction: column;
     }
     ul{
         height: 20vh;
@@ -334,7 +342,7 @@ footer p{
       .bs{
         display: none;
       }
-      ol{
+      .sea ol{
         display: none;
       }
       .down{

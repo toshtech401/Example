@@ -7,13 +7,19 @@ import {BsSearch} from 'react-icons/bs'
 import banner from "../Images/Banner.jpg"
 import open from '../Images/open.svg'
 import close from '../Images/close.svg'
+import '../Contact/Contact.css'
 
 const Header = () => {
   const [openToggle, setOpenToggle] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
     
     const handleToggle = () => {
         setOpenToggle(!openToggle)
     }
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+    };
   return (
     <div className='head'>
       <div className='up'>
@@ -43,16 +49,42 @@ const Header = () => {
         </div>
         <div  className='sea'>
           <ol>
-           <li>
-            Products <RiArrowDropDownLine />
-            </li>
+            <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+              <li className="dropbtn">
+                Products <RiArrowDropDownLine />
+              </li>
+              {isOpen && (
+              <div className="dropdown-content">
+                <a href="#">Appliances</a>
+                <a href="#">Bakery</a>
+                <a href="#">Cleaning</a>
+                <a href="#">Coffe & Tea</a>
+                <a href="#">Liquor</a>
+                <a href="#">Personal Care</a>
+                <a href="#">Soft Drinks</a>
+                <a href="#">Snacks</a>
+                <a href="#">Wine</a>
+              </div>
+            )}
+            </div>
             <li>
               Promotion
             </li>
-            <li>
-              Explore
-              <RiArrowDropDownLine />
-            </li>
+            <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+              <li className="dropbtn">
+                Explore <RiArrowDropDownLine />
+              </li>
+              {isOpen && (
+              <div className="dropdown-content">
+                <a href="#">Bakery & Deli</a>
+                <a href="#">Baby</a>
+                <a href="#">Fruits & Vegetables</a>
+                <a href="#">Meat & Poultry</a>
+                <a href="#">Recipes</a>
+                <a href="#">Wine & Liquor</a>
+              </div>
+            )}
+            </div>
             <li>
               Contact
             </li>
