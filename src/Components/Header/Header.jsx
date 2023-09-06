@@ -40,7 +40,7 @@ const Header = () => {
       </div>
       <div className='down'>
         <div className='tog'>
-          <h1>OLA MALL</h1>
+          <h1></h1>
           <button onClick={handleToggle} className="toggle">
           {
             openToggle ? <img src={close} alt="" /> : <img src={open} alt="" />
@@ -58,7 +58,7 @@ const Header = () => {
                 <a href="#">Appliances</a>
                 <a href="#">Bakery</a>
                 <a href="#">Cleaning</a>
-                <a href="#">Coffe & Tea</a>
+                <a href="#">Coffee & Tea</a>
                 <a href="#">Liquor</a>
                 <a href="#">Personal Care</a>
                 <a href="#">Soft Drinks</a>
