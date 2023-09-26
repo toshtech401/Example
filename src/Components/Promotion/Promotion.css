@@ -1,0 +1,26 @@
+.promote img{
+    height: 43.6vh;
+}
+.prom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.prom img{
+    height: 15vh;
+    transition: ease-in-out 2s;
+}
+.prom h1{
+    font-size: 7vw;
+    color: rgb(184, 16, 16);
+}
+.prom p{
+    font-size: 20px;
+}
+.prom img:hover{
+    cursor: pointer;
+    margin-top: 5px;
+    transition: ease-in-out 2s;
+}

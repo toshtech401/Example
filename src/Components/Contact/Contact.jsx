@@ -7,7 +7,7 @@ import {MdOutlineCall} from 'react-icons/md'
 import {AiOutlineMail} from 'react-icons/ai'
 
 
-const COntact = () => {
+const Contact = () => {
 
   return (
     <div>
@@ -58,4 +58,4 @@ const COntact = () => {
   );
 };
 
-export default COntact;
+export default Contact;
