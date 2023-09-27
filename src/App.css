@@ -269,6 +269,7 @@ footer p{
     .pro{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 15px;
     }
     .mid{
         flex-direction: column;
@@ -352,5 +353,14 @@ footer p{
         display: flex;
         justify-content: space-between;
         width: 100%;
+      }
+      .proo img{
+        height: 15vh;
+      }
+      .sell img{
+        height: 15vh;
+      }
+      .pro img{
+        height: 15vh;
       }
 }

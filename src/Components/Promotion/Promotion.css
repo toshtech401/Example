@@ -10,7 +10,7 @@
 }
 .prom img{
     height: 15vh;
-    transition: ease-in-out 2s;
+    transition: ease-in-out .2s;
 }
 .prom h1{
     font-size: 7vw;
@@ -22,5 +22,5 @@
 .prom img:hover{
     cursor: pointer;
     margin-top: 5px;
-    transition: ease-in-out 2s;
+    transition: ease-in-out .2s;
 }

@@ -8,6 +8,7 @@ import banner from "../Images/Banner.jpg"
 import open from '../Images/open.svg'
 import close from '../Images/close.svg'
 import '../Contact/Contact.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [openToggle, setOpenToggle] = useState(false);
