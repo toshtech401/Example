@@ -276,6 +276,7 @@ footer p{
     }
     .mid img{
         height: 20vh;
+        width: 100%;
     }
     .sell{
         display: grid;
@@ -284,6 +285,10 @@ footer p{
     }
     .banner img{
         height: 20vh;
+        width: 100%;
+    }
+    .top h2{
+        font-size: 15px;
     }
     .down{
         flex-direction: column;
