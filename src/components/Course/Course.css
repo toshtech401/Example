@@ -1,0 +1,48 @@
+.up img{
+    height: 20vh;
+    border-radius: 20px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.now{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    gap: 15px;
+}
+.btn1{
+    padding: 5px 10px;
+    border: 2px solid #5852FE;
+    background-color: transparent;
+    
+}
+
+.btn2{
+    padding: 5px 10px;
+    background-color:#5852FE ;
+    border: none;
+    color: white;
+}
+.course{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tech{
+    display: flex;
+    justify-content: space-between;
+}

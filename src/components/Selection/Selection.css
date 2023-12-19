@@ -1,0 +1,51 @@
+.cry{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.pap button{
+    background-color: transparent;
+    border: none;
+}
+
+.crry{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid grey;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.crr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.btt{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 2px solid #5852FE;
+    border-radius: 10px;
+}
+.btw{
+    background-color: transparent;
+    padding: 13px 30px;
+    background-color: #5852FE;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

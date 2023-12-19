@@ -1,18 +1,31 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Hero from './Components/Hero';
-import Contact from './Components/Contact/Contact'
-import Promotion from './Components/Promotion/Promotion';
+import Course from './components/Course/Course';
+import Sidebar from './components/Sidebar/Sidebar';
+import Quiz from './components/QuizPage/Quiz';
+import Get from './components/GetHelp/Get';
+import Settings from './components/Settings/Settings';
+import Selection from './components/Selection/Selection';
+import SignUp from './components/SignUp/SignUp';
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Hero />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/promotion' element={<Promotion />}/>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <div className='App'>
+        <div className='aside'>
+          <Sidebar />
+        </div>
+        <div className='other'>
+          <Course />
+          {/* <Quiz /> */}
+          {/* <Get /> */}
+          {/* <Settings /> */}
+          {/* <Selection /> */}
+          {/* <SignUp /> */}
+        </div>
+      </div>
+      {/* <SignUp /> */}
+    </div>
   );
 }
 

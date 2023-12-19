@@ -1,0 +1,28 @@
+.edit{
+    background-color: transparent;
+    color: #5852FE;
+}
+.dob{
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    height: 20vh;
+    background-color: #D9D9D9;
+    width: 15%;
+    border-radius: 50%;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.dob button{
+    background-color: #5852FE;
+    padding: 10px 60px;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
